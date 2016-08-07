@@ -25,3 +25,98 @@ body {
   display: table;
   clear: both;
 }
+
+.main-header {
+  min-height: 700px;
+}
+
+.index-logo img {
+  width: 170px;
+  height: 140px;
+}
+
+.header-social {
+  width: 120px;
+  height: 16px;
+  padding: 10px;
+}
+
+.header-greeting {
+  width: 270px;
+  height: 300px;
+  margin-top: 200px;
+  padding-top: 80px;
+  padding-left: 25px;
+
+  background-color: #99ffbb;
+}
+
+.header-greeting h2 {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+
+  color: #333333;
+}
+
+.header-greeting p {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 14px;
+}
+
+.header-slider {
+  width: 675px;
+  min-height: 330px;
+  margin-right: 100px;
+
+  font-family: 'Raleway', 'Arial', sans-serif;
+}
+
+.header-slider h1 {
+  margin: 0;
+  padding: 0;
+
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+
+.header-slider p {
+  margin: 0;
+  margin-bottom: 60px;
+  padding: 0;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.item-description {
+  width: 315px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 20px 30px;
+
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  color: #000000;
+  background-color: #99ffbb;
+}
+
