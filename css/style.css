@@ -1,4 +1,27 @@
 body {
+  min-width: 1280px;
+
   font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 14px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+
+.to-left {
+  float: left;
+}
+
+.to-right {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
 }
