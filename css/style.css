@@ -322,15 +322,20 @@ body {
   color: #333333;
 }
 
-.font-header span {
+.feed-header span {
   font-size: 18px;
 }
 
 .feed-img {
   display: inline-block;
   border: 8px solid #fff;
+  margin-right: 12px;
 
   background-color: #eaeaea;
+}
+
+.feed-img:last-of-type {
+  margin-right: 0;
 }
 
 .footer-columns {
