@@ -3,12 +3,13 @@ body {
 
   font-family: 'Roboto', 'Arial', sans-serif;
   font-size: 14px;
+
+  background-color: #f8f8f8;
 }
 
 .container {
   width: 1170px;
   margin: 0 auto;
-  padding: 0 55px;
 }
 
 .to-left {
@@ -136,3 +137,49 @@ body {
   background-color: #9bfedf;
 }
 
+.main-menu {
+  width: 270px;
+}
+
+.banner {
+  width: 270px;
+}
+
+.gallery {
+  width: 870px;
+
+  font-family: 'Roboto', 'Arial', sans-serif;
+}
+
+.gallery-item {
+  display: inline-block;
+
+  vertical-align: top;
+}
+
+.gallery-item a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+
+  background-color: #ffffff;
+}
+
+.gallery-item h1 {
+  margin: 0;
+  padding: 0;
+  width: 170px;
+  font-size: 14px;
+}
+
+.brandlist {
+  clear: both;
+}
+
+.feed-img {
+  display: inline-block;
+}
+
+.footer-columns {
+  display: inline-block;
+}
