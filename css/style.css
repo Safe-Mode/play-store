@@ -28,11 +28,14 @@ body {
 
 .main-header {
   min-height: 700px;
+
+  background: url("../img/header-bg.jpg") no-repeat center/cover;
 }
 
 .index-logo img {
   width: 170px;
   height: 140px;
+  margin-bottom: 100px;
 }
 
 .header-social {
@@ -42,13 +45,15 @@ body {
 }
 
 .header-greeting {
+  box-sizing: border-box;
   width: 270px;
   height: 300px;
   margin-top: 200px;
-  padding-top: 80px;
+  margin-bottom: 65px;
+  padding-top: 40px;
   padding-left: 25px;
 
-  background-color: #99ffbb;
+  background-color: #94dac0;
 }
 
 .header-greeting h2 {
@@ -71,28 +76,36 @@ body {
   font-family: 'Raleway', 'Arial', sans-serif;
   font-size: 18px;
   font-weight: 700;
+  font-style: italic;
   line-height: 14px;
+
+  color: #333333;
 }
 
 .header-slider {
-  width: 675px;
+  box-sizing: border-box;
+  width: 700px;
   min-height: 330px;
   margin-right: 100px;
 
   font-family: 'Raleway', 'Arial', sans-serif;
 }
 
-.header-slider h1 {
+.slider-item {
+  padding: 10px;
+}
+
+.slider-item h1 {
   margin: 0;
   padding: 0;
 
-  font-size: 48px;
+  font-size: 36px;
   font-weight: 800;
   line-height: 34px;
   text-transform: uppercase;
 }
 
-.header-slider p {
+.slider-item p {
   margin: 0;
   margin-bottom: 60px;
   padding: 0;
@@ -117,6 +130,10 @@ body {
   text-transform: uppercase;
 
   color: #000000;
-  background-color: #99ffbb;
+  background-color: #94dac0;
+}
+
+.btn:hover {
+  background-color: #9bfedf;
 }
 
