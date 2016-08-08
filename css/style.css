@@ -301,8 +301,34 @@ body {
   margin-right: 0;
 }
 
+.feed {
+  padding-top: 55px;
+  padding-bottom: 60px;
+
+  font-size: 0;
+
+  background-color: #eaeaea;
+}
+
+.feed-header {
+  padding-bottom: 30px;
+
+  font-size: 22px;
+  font-weight: 900;
+  font-style: italic;
+
+  text-align: center;
+
+  color: #333333;
+}
+
+.font-header span {
+  font-size: 18px;
+}
+
 .feed-img {
   display: inline-block;
+  border: 8px solid #fff;
 
   background-color: #eaeaea;
 }
