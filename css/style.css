@@ -236,6 +236,10 @@ body {
   margin-right: 0;
 }
 
+.gallery-item:hover {
+  box-shadow: 0 0 20px #333;
+}
+
 .gallery-item a {
   display: block;
   padding: 10px;
