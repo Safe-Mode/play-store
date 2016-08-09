@@ -338,6 +338,7 @@ body {
   margin-right: 0;
 }
 
-.footer-columns {
-  display: inline-block;
+.footer-column {
+  float: left;
+  max-width: 270px;
 }
