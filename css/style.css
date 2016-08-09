@@ -460,6 +460,10 @@ body {
   color: #ffffff;
 }
 
+.column-subscribe button:hover {
+  cursor: pointer;
+}
+
 .pay-services {
   font-size: 0;
 }
