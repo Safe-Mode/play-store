@@ -41,9 +41,33 @@ body {
 }
 
 .header-social {
-  width: 120px;
   height: 16px;
   padding: 10px;
+}
+
+.header-social a {
+  display: inline-block;
+
+  vertical-align: top;
+  text-align: center;
+}
+
+.header-social .icon {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+
+  font-size: 16px;
+  line-height: 25px;
+  vertical-align: middle;
+
+  color: #333333;
+}
+
+.header-social a:hover .icon {
+  background-color: #333;
+  color: #fff;
 }
 
 .header-greeting {
@@ -277,8 +301,26 @@ body {
   display: block;
 }
 
-.item-price i {
+.item-price span::before {
+  content: '\f158';
+
+  display: inline-block;
+  width: 1em;
+  margin-right: .2em;
+  margin-left: .2em;
+
+  font-family: "fontello";
   font-style: italic;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-decoration: inherit;
+  text-align: center;
+  line-height: 1em;
+  speak: none;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .price-old {
@@ -286,10 +328,6 @@ body {
   text-decoration: line-through;
 
   color: #e24602;
-}
-
-.price-old i {
-  text-decoration: line-through;
 }
 
 .brandlist {
@@ -354,6 +392,8 @@ body {
   display: inline-block;
   width: 390px;
   height: 150px;
+
+  text-align: center;
 }
 
 .big-btn-fb {
@@ -366,6 +406,14 @@ body {
 
 .big-btn-pint {
   background-color: #cb2027;
+}
+
+.big-btn .icon {
+  font-size: 60px;
+  line-height: 150px;
+  vertical-align: middle;
+
+  color: #fff;
 }
 
 .footer-middle {
@@ -518,3 +566,33 @@ body {
   text-transform: uppercase;
 }
 
+.footer-social {
+  padding: 15px 0;
+}
+
+.footer-social a {
+  display: inline-block;
+  height: 20px;
+
+  vertical-align: top;
+  text-align: center;
+  line-height: 20px;
+}
+
+.footer-social .icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+  font-size: 15px;
+  line-height: 20px;
+  vertical-align: middle;
+
+  color: #fff;
+}
+
+.footer-social a:hover .icon {
+  background-color: #fff;
+  color: #333;
+}
