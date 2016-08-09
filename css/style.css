@@ -138,6 +138,10 @@ body {
   background-color: #9bfedf;
 }
 
+.btn:active {
+  transform: scale(0.9);
+}
+
 .main-menu {
   width: 270px;
 
