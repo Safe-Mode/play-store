@@ -338,7 +338,171 @@ body {
   margin-right: 0;
 }
 
+.footer-top {
+  font-size: 0;
+}
+
+.big-btn {
+  display: inline-block;
+  width: 390px;
+  height: 150px;
+}
+
+.big-btn-fb {
+  background-color: #3b5997;
+}
+
+.big-btn-tw {
+  background-color: #3fccfd;
+}
+
+.big-btn-pint {
+  background-color: #cb2027;
+}
+
+.footer-middle {
+  background-color: #373737;
+  color: #ffffff;
+}
+
+.footer-middle .container {
+  box-sizing: border-box;
+  padding: 50px 25px;
+}
+
 .footer-column {
   float: left;
   max-width: 270px;
+  margin-right: 45px;
+
+  font-size: 12px
 }
+
+.footer-column:last-child {
+  margin-right: 0;
+}
+
+.footer-menu {
+  margin-right: 90px;
+}
+
+.menu-column {
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+  line-height: 18px;
+}
+
+.menu-column a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-column h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+
+  font-size: 18px;
+}
+
+.column-subscribe p {
+  max-width: 195px;
+}
+
+.column-subscribe form {
+  margin-bottom: 45px;
+
+  font-size: 0;
+}
+
+.column-subscribe input[type="email"] {
+  box-sizing: border-box;
+  width: 180px;
+  height: 30px;
+  margin: 0;
+  padding: 10px 0;
+  padding-left: 20px;
+  border: none;
+
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  background-color: #fff51f;
+  color: rgba(51, 51, 51, 0.45);
+}
+
+.column-subscribe button {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: none;
+  width: 70px;
+  height: 30px;
+
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: 12px;
+  font-weight: 400;
+
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.pay-services {
+  font-size: 0;
+}
+
+.pay-services img {
+  margin-right: 10px
+}
+
+.pay-services img:last-child {
+  margin-right: 0;
+}
+
+.column-about-us {
+  max-width: 230px;
+}
+
+.column-about-us p {
+  margin-bottom: 15px;
+}
+
+.about-us-contact {
+  margin-bottom: 15px;
+}
+
+.about-us-contact span {
+  font-size: 14px;
+}
+
+.about-us-contact span:nth-child(odd) {
+  margin-right: 20px;
+}
+
+.contact-email {
+  color: #faef03;
+}
+
+.footer-bottom {
+  min-height: 50px;
+
+  font-size: 12px;
+  line-height: 20px;
+
+  background-color: #333333;
+  color: #dad9d9;
+}
+
+.footer-copyright {
+  padding: 15px 0;
+}
+
+.copyright-title {
+  text-transform: uppercase;
+}
+
