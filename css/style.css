@@ -140,7 +140,7 @@ body {
   color: #000;
 }
 
-.item-description {
+.header-slider .item-description {
   width: 315px;
 }
 
@@ -255,6 +255,10 @@ body {
   background-color: #faef03;
 }
 
+.description-full {
+  clear: both;
+}
+
 .catalog {
   width: 870px;
   margin-bottom: 100px;
@@ -340,7 +344,8 @@ body {
   display: block;
 }
 
-.item-price span::before {
+.item-price span::before,
+.description-price span::before {
   content: '\f158';
 
   display: inline-block;
@@ -367,6 +372,129 @@ body {
   text-decoration: line-through;
 
   color: #e24602;
+}
+
+.description-gallery {
+  width: 370px;
+  margin-right: 40px;
+  margin-bottom: 35px;
+
+  font-size: 0;
+}
+
+.description-gallery figure {
+  display: inline-block;
+  margin: 0;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.description-gallery figure:last-child {
+  margin-right: 0;
+}
+
+.item-description h1 {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 50px;
+
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  color: #353535;
+}
+
+.description-price {
+  margin-bottom: 30px;
+
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+
+  color: #111111;
+}
+
+.description-short {
+  clear: both;
+  max-width: 450px;
+  border-top: 1px solid rgba(51, 51, 51, 0.1);
+  border-bottom:  1px solid rgba(51, 51, 51, 0.1);
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.description-short h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  color: #353535;
+}
+
+.description-short p {
+  margin: 0;
+  padding: 0;
+  max-width: 450px;
+
+  font-size: 12px;
+  font-weight: 400;
+
+  color: #707070;
+}
+
+.item-description .btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.description-full {
+  font-size: 12px;
+
+  color: #808080;
+}
+
+.description-full h2 {
+  box-sizing: border-box;
+  margin: 0;
+  margin-left: 20px;
+  padding: 10px 15px;
+  padding-right: 0;
+  width: 170px;
+  height: 35px;
+
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  color: #333333;
+  background: #c55152
+}
+
+.description-full h3 {
+  margin: 0;
+  padding: 0;
+
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.description-full p {
+  margin-left: 20px;
+}
+
+.description-full .border {
+  padding: 10px;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+}
+
+.relative-product {
+  clear: both;
 }
 
 .brandlist {
