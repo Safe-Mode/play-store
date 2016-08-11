@@ -245,6 +245,10 @@ body {
   margin-left: 5px;
 }
 
+.breadcrumbs a:last-child::after {
+  content: none;
+}
+
 .breadcrumbs .active {
   padding: 5px;
 
