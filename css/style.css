@@ -147,6 +147,8 @@ body {
 .btn {
   display: inline-block;
   padding: 20px 30px;
+  border: none;
+  outline: none;
 
   font-family: 'Raleway', 'Arial', sans-serif;
   font-size: 14px;
@@ -156,6 +158,7 @@ body {
 
   color: #000000;
   background-color: #94dac0;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -223,7 +226,8 @@ body {
 }
 
 .breadcrumbs {
-  margin-bottom: 100px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 
   font-size: 0;
 }
@@ -351,7 +355,7 @@ body {
   display: inline-block;
   width: 1em;
   margin-right: .2em;
-  margin-left: .2em;
+  margin-left: 0;
 
   font-family: "fontello";
   font-style: italic;
@@ -387,6 +391,8 @@ body {
   margin: 0;
   margin-right: 5px;
   margin-bottom: 5px;
+
+  cursor: pointer;
 }
 
 .description-gallery figure:last-child {
@@ -453,6 +459,8 @@ body {
 }
 
 .description-full {
+  margin-bottom: 80px;
+
   font-size: 12px;
 
   color: #808080;
@@ -495,6 +503,29 @@ body {
 
 .relative-product {
   clear: both;
+  padding: 20px 0;
+}
+
+.relative-product h2 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+
+  color: #333333;
+}
+
+.product-recomend {
+  margin-bottom: 80px;
+}
+
+.product-recent {
+  margin-bottom: 80px;
 }
 
 .brandlist {
