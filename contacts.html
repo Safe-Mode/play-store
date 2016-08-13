@@ -80,7 +80,7 @@
       <div class="banner"></div>
     </div>
     <div class="to-right">
-      <main>
+      <main class="contacts clearfix">
         <div class="breadcrumbs">
           <a href="index.html">Главная</a>
           <a class="active" href="#">Контакты</a>
@@ -88,22 +88,25 @@
         <form class="contact-message to-left" action="">
           <label for="name">Ваше имя*</label>
           <input type="text" id="name" placeholder="Сергей" required>
-          <label for="email">Ваш email</label>
-          <input type="email" id="email" plsceholder="email@domen.ru" required>
+          <label for="email">Ваш email*</label>
+          <input type="email" id="email" placeholder="email@domen.ru" required>
           <label for="company">Ваша фирма</label>
           <input type="text" id="company" placeholder="ИП Дмитриев">
-          <label for="subject">Тема обращения</label>
+          <label for="subject">Тема обращения*</label>
           <input type="text" id="subject" placeholder="Жалоба" required>
           <label for="message">Ваше письмо</label>
           <textarea id="message"></textarea>
           <button class="btn" type="submit">Отправить</button>
         </form>
-        <section class="contact-address to-right">
+        <section class="contact-address to-left">
           <h2>Наш адрес</h2>
-          <p>Ut interdum tristique est commodo pharetra.</p>
-          <p>Lorem Ipsum is simply dummy text of the printing and over</p>
-          <span class="contact-phone">1-900-324-9876</span>
-          <span class="contact-email">info@surfhouse.com</span>
+          <div class="contact-location">
+            <i class="icon-location"></i>
+            <p class="location-info">Ut interdum tristique est commodo pharetra.</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and over</p>
+          </div>
+          <div class="contact-info contact-phone"><i class="icon-phone"></i>1-900-324-9876</div>
+          <div class="contact-info contact-email"><i class="icon-mail"></i>info@playstore.ru</div>
           <p>If you have questions about your order or need any general information our customer service team will be happy to assist you.</p>
         </section>
       </main>
@@ -111,7 +114,6 @@
         <img src="img/ubisoft-logo.png" alt="Ubisoft Logo" title="Ubisoft">
         <img src="img/EA-logo.png" alt="EA Logo" title="EA">
         <img src="img/nival-logo.png" alt="Nival Logo" title="Nival">
-        <img src="img/blizzard-logo.png" alt="Blizzard">
       </aside>
     </div>
   </div>
