@@ -2,18 +2,58 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Игры - PS4</title>
+  <title>Контакты - PlayStore</title>
   <link href="css/normalize.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,700,800|Roboto:400,700,900,900i&subset=cyrillic" rel="stylesheet">
   <link href="css/fontello.css" rel="stylesheet">
+  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+  <script src="js/geo_object_collection.js" type="text/javascript"></script>
+  <style>
+
+    #map {
+      position: relative;
+
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    .main-header {
+      height: 350px;
+      padding: 0;
+    }
+
+    .main-header .container {
+      position: absolute;
+      left: 50%;
+      z-index: 1;
+
+      transform: translateX(-50%);
+    }
+
+    .main-header .index-logo {
+      position: absolute;
+      top: 20px;
+      left: 10px;
+    }
+
+    .main-header .header-social {
+      position: absolute;
+      top: 20px;
+      right: 10px;
+
+      background-color: rgba(193, 193, 193, 0.8);
+    }
+  </style>
 </head>
 <body>
   <header class="main-header">
-    <div class="container clearfix">
-      <div class="header-row clearfix">
-        <div class="index-logo to-left"><a href="index.html"><img src="img/index-logo.png" width="170" height="140" alt="Play Store"></a></div>
-        <div class="header-social to-right">
+    <div id="map">
+      <div class="container clearfix">
+        <div class="index-logo"><a href="index.html"><img src="img/index-logo.png" width="170" height="140" alt="Play Store"></a></div>
+        <div class="header-social">
           <a href="#"><i class="icon icon-facebook"></i></a>
           <a href="#"><i class="icon icon-twitter"></i></a>
           <a href="#"><i class="icon icon-youtube"></i></a>
@@ -23,116 +63,59 @@
       </div>
     </div>
   </header>
-  <div class="container">
+  <div class="container clearfix">
     <div class="to-left">
       <nav class="main-menu">
         <h2>Меню</h2>
         <ul>
           <li><a href="#">О нас</a></li>
           <li><a href="#">Игровые консоли</a></li>
-          <li><a href="#">Игры</a></li>
+          <li><a href="shop.html">Игры</a></li>
           <li><a href="#">Аксессуары</a></li>
           <li><a href="#">Распродажа</a></li>
           <li><a href="#">Блог</a></li>
-          <li><a href="contacts.html">Контакты</a></li>
+          <li><a href="#">Контакты</a></li>
         </ul>
       </nav>
       <div class="banner"></div>
     </div>
-    <main class="to-right">
-      <div class="breadcrumbs">
-        <a href="index.html">Главная</a>
-        <a href="#">Игры</a>
-        <a class="active" href="">PS4</a>
-      </div>
-      <section class="catalog">
-        <article class="catalog-item">
-          <a class="clearfix" href="shop-item.html">
-            <img src="img/uncharted4.jpg" width="250" height="235" alt="Uncharted 4: A Thief's End">
-            <h1>Uncharted&nbsp;4: A&nbsp;Thief&rsquo;s End</h1>
-            <div class="item-price">
-              <span class="price-current">3 490</span>
-            </div>
-          </a>
-        </article>
-        <article class="catalog-item">
-          <a class="clearfix" href="#">
-            <img src="img/ps4-uncharted4.jpg" width="250" height="235" alt="PS4 Uncharted 4 Edition">
-            <h1>PS4 Uncharted&nbsp;4 Edition</h1>
-            <div class="item-price">
-              <span class="price-current">29 990</span>
-              <span class="price-old">36 990</span>
-            </div>
-          </a>
-        </article>
-        <article class="catalog-item">
-          <a class="clearfix" href="#">
-            <img src="img/the-witcher3.jpg" width="250" height="235" alt="Ведьмак 3: Дикая охота">
-            <h1>Ведьмак&nbsp;3: Дикая охота</h1>
-            <div class="item-price">
-              <span class="price-current">1 990</span>
-            </div>
-          </a>
-        </article>
-        <article class="catalog-item">
-          <a class="clearfix" href="#">
-            <img src="img/ps4.jpg" width="250" height="235" alt="Игровая консоль PlayStation 4 500Gb Black (CUH-1108A)">
-            <h1>Игровая консоль PlayStation&nbsp;4 500Gb Black (CUH-1108A)</h1>
-            <div class="item-price">
-              <span class="price-current">24 990</span>
-            </div>
-          </a>
-        </article>
-        <article class="catalog-item">
-          <a class="clearfix" href="#">
-            <img src="img/the-last-of-us-remastered.jpg" width="250" height="235" alt="The Last of Us: Remastered">
-            <h1>The Last of&nbsp;Us: Remastered</h1>
-            <div class="item-price">
-              <span class="price-current">1 490</span>
-            </div>
-          </a>
-        </article>
-        <article class="catalog-item">
-          <a class="clearfix" href="#">
-            <img src="img/uncharted-collection.jpg" width="250" height="235" alt="Uncharted: Collection">
-            <h1>Uncharted: Collection</h1>
-            <div class="item-price">
-              <span class="price-current">2 990</span>
-            </div>
-          </a>
-        </article>
-        <article class="catalog-item">
-          <a class="clearfix" href="#">
-            <img src="img/beyond-heavy-rain.jpg" width="250" height="235" alt="Коллекция: Heavy Rain, За гранью: Две души">
-            <h1>Коллекция: Heavy Rain, За&nbsp;гранью: Две души</h1>
-            <div class="item-price">
-              <span class="price-current">1 990</span>
-              <span class="price-old">2 490</span>
-            </div>
-          </a>
-        </article>
-        <article class="catalog-item">
-          <a class="clearfix" href="#">
-            <img src="img/killzone.jpg" width="250" height="235" alt="Killzone: Shadow Fall">
-            <h1>Killzone: Shadow Fall</h1>
-            <div class="item-price">
-              <span class="price-current">1 490</span>
-              <span class="price-old">2 190</span>
-            </div>
-          </a>
-        </article>
-        <article class="catalog-item">
-          <a class="clearfix" href="#">
-            <img src="img/battlefield4.jpg" width="250" height="235" alt="Battlefield 4. Premium Edition">
-            <h1>Battlefield&nbsp;4. Premium Edition</h1>
-            <div class="item-price">
-              <span class="price-current">1 190</span>
-              <span class="price-old">1 790</span>
-            </div>
-          </a>
-        </article>
-      </section>
-    </main>
+    <div class="to-right">
+      <main class="contacts clearfix">
+        <div class="breadcrumbs">
+          <a href="index.html">Главная</a>
+          <a class="active" href="#">Контакты</a>
+        </div>
+        <form class="contact-message to-left" action="">
+          <label for="name">Ваше имя*</label>
+          <input type="text" id="name" placeholder="Сергей" required>
+          <label for="email">Ваш email*</label>
+          <input type="email" id="email" placeholder="email@domen.ru" required>
+          <label for="company">Ваша фирма</label>
+          <input type="text" id="company" placeholder="ИП Дмитриев">
+          <label for="subject">Тема обращения*</label>
+          <input type="text" id="subject" placeholder="Жалоба" required>
+          <label for="message">Ваше письмо</label>
+          <textarea id="message"></textarea>
+          <button class="btn" type="submit">Отправить</button>
+        </form>
+        <section class="contact-address to-left">
+          <h2>Наш адрес</h2>
+          <div class="contact-location">
+            <i class="icon-location"></i>
+            <p class="location-info">Ut interdum tristique est commodo pharetra.</p>
+            <p>Lorem Ipsum is simply dummy text of the printing and over</p>
+          </div>
+          <div class="contact-info contact-phone"><i class="icon-phone"></i>1-900-324-9876</div>
+          <div class="contact-info contact-email"><i class="icon-mail"></i>info@playstore.ru</div>
+          <p>If you have questions about your order or need any general information our customer service team will be happy to assist you.</p>
+        </section>
+      </main>
+      <aside class="brandlist">
+        <img src="img/ubisoft-logo.png" alt="Ubisoft Logo" title="Ubisoft">
+        <img src="img/EA-logo.png" alt="EA Logo" title="EA">
+        <img src="img/nival-logo.png" alt="Nival Logo" title="Nival">
+      </aside>
+    </div>
   </div>
   <footer class="main-footer">
     <div class="footer-top">

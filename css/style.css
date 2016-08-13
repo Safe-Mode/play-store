@@ -41,8 +41,7 @@ body {
 }
 
 .header-social {
-  height: 16px;
-  padding: 10px;
+  padding: 5px;
 }
 
 .header-social a {
@@ -147,6 +146,8 @@ body {
 .btn {
   display: inline-block;
   padding: 20px 30px;
+  border: none;
+  outline: none;
 
   font-family: 'Raleway', 'Arial', sans-serif;
   font-size: 14px;
@@ -156,6 +157,7 @@ body {
 
   color: #000000;
   background-color: #94dac0;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -222,8 +224,13 @@ body {
   width: 270px;
 }
 
+.contacts {
+  margin-bottom: 30px;
+}
+
 .breadcrumbs {
-  margin-bottom: 100px;
+  margin-top: 40px;
+  margin-bottom: 50px;
 
   font-size: 0;
 }
@@ -253,6 +260,159 @@ body {
   padding: 5px;
 
   background-color: #faef03;
+}
+
+.contact-message {
+  max-width: 380px;
+
+  background: url(images/sep.png) no-repeat right 20%;
+}
+
+.contact-message label {
+  display: block;
+  margin-bottom: 10px;
+
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  color: #333333;
+}
+
+.contact-message input {
+  display: block;
+  margin-bottom: 35px;
+  width: 320px;
+  padding: 5px 15px;
+  border: 1px solid #e6e6e6;
+}
+
+.contact-message input:hover {
+  background-color: #ccffdd;
+}
+
+.contact-message input:focus {
+  outline-color: #00cc7a;
+}
+
+.contact-message textarea {
+  width: 340px;
+  min-height: 150px;
+  padding: 5px;
+  margin-bottom: 35px;
+  resize: none;
+  border: 1px solid #e6e6e6;
+}
+
+.contact-message textarea:hover {
+  background-color: #ccffdd;
+}
+
+.contact-message textarea:focus {
+  outline-color: #00cc7a;
+}
+
+.contact-message .btn {
+  margin-bottom: 20px;
+}
+
+.contact-address {
+  max-width: 300px;
+  padding: 0 20px;
+  padding-left: 30px;
+}
+
+.contact-address i {
+  display: inline-block;
+  margin-right: 5px;
+
+  vertical-align: top;
+  font-size: 24px;
+  text-align: left;
+
+  color: #333333;
+}
+
+.contact-address h2 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 14px;
+}
+
+.contact-address p {
+  max-width: 300px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+
+  color: #333333;
+}
+
+.contact-location {
+  margin-bottom: 20px;
+}
+
+.contact-location p {
+  max-width: 165px;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+
+  color: #777777;
+}
+
+.contact-location .icon-location {
+  padding: 0;
+  margin: 0;
+}
+
+.contact-location .icon-location:before {
+  margin: 0;
+}
+
+.contact-location .location-info {
+  display: inline-block;
+  max-width: 155px;
+}
+
+.contact-address .contact-info {
+  margin-bottom: 10px;
+}
+
+.contact-address .contact-info i {
+  font-size: 18px;
+}
+
+.contact-address .contact-phone {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 20.8px;
+
+  color: #333333;
+}
+
+.contact-address .contact-email {
+  margin-bottom: 20px;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-decoration: underline;
+
+  color: #333333;
+}
+
+.contacts + .brandlist {
+  margin-bottom: 50px;
 }
 
 .description-full {
@@ -351,7 +511,7 @@ body {
   display: inline-block;
   width: 1em;
   margin-right: .2em;
-  margin-left: .2em;
+  margin-left: 0;
 
   font-family: "fontello";
   font-style: italic;
@@ -387,6 +547,8 @@ body {
   margin: 0;
   margin-right: 5px;
   margin-bottom: 5px;
+
+  cursor: pointer;
 }
 
 .description-gallery figure:last-child {
@@ -453,6 +615,8 @@ body {
 }
 
 .description-full {
+  margin-bottom: 80px;
+
   font-size: 12px;
 
   color: #808080;
@@ -495,6 +659,29 @@ body {
 
 .relative-product {
   clear: both;
+  padding: 20px 0;
+}
+
+.relative-product h2 {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 40px;
+
+  font-family: 'Raleway', 'Arial', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  font-style: italic;
+  text-transform: uppercase;
+
+  color: #333333;
+}
+
+.product-recomend {
+  margin-bottom: 80px;
+}
+
+.product-recent {
+  margin-bottom: 80px;
 }
 
 .brandlist {
@@ -734,26 +921,26 @@ body {
 }
 
 .footer-social {
-  padding: 15px 0;
+  padding: 12.5px 0;
 }
 
 .footer-social a {
   display: inline-block;
-  height: 20px;
+  height: 25px;
 
   vertical-align: top;
   text-align: center;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 .footer-social .icon {
   display: inline-block;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   border-radius: 50%;
 
   font-size: 15px;
-  line-height: 20px;
+  line-height: 25px;
   vertical-align: middle;
 
   color: #fff;
