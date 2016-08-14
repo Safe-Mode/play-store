@@ -263,7 +263,7 @@ body {
 .contact-message {
   max-width: 380px;
 
-  background: url(images/sep.png) no-repeat right 20%;
+  background: url(../img/sep.png) no-repeat right 20%;
 }
 
 .contact-message label {
